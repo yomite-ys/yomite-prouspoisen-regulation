@@ -1,7 +1,41 @@
-/* ========== バッジ ========== */
+/* =============================================
+   カラー設定（ここを変えると全体の色が変わる）
+   ============================================= */
+:root {
+  --color-primary: #1a4fa0;      /* メインカラー（ヘッダー・見出し） */
+  --color-primary-dark: #0d2d6b; /* 濃いめのメインカラー */
+  --color-primary-light: #e8f0fb;/* 薄いメインカラー（背景等） */
+  --color-ok: #1b7a3e;           /* OKバッジの色 */
+  --color-ok-bg: #edf7f1;        /* OKセルの背景 */
+  --color-ng: #b71c1c;           /* NGバッジの色 */
+  --color-ng-bg: #fdf0f0;        /* NGセルの背景 */
+  --color-border: #dde6f5;       /* テーブルの罫線 */
+}
+
+/* =============================================
+   フォント設定
+   ============================================= */
+@import url('https://fonts.googleapis.com/css2?family=BIZ+UDPGothic:wght@400;700&family=BIZ+UDMincho&display=swap');
+
+.md-typeset {
+  font-family: 'BIZ UDPGothic', 'Noto Sans JP', sans-serif;
+  font-size: 0.92rem;
+  line-height: 1.75;
+  letter-spacing: 0.01em;
+}
+
+.md-header__title,
+.md-nav__title,
+.md-nav__item {
+  font-family: 'BIZ UDPGothic', 'Noto Sans JP', sans-serif;
+}
+
+/* =============================================
+   バッジ
+   ============================================= */
 .badge-ok {
   display: inline-block;
-  background-color: #2e7d32;
+  background-color: var(--color-ok);
   color: white;
   padding: 2px 12px;
   border-radius: 12px;
@@ -13,7 +47,7 @@
 
 .badge-ng {
   display: inline-block;
-  background-color: #c62828;
+  background-color: var(--color-ng);
   color: white;
   padding: 2px 12px;
   border-radius: 12px;
@@ -25,7 +59,7 @@
 
 .badge-conditional {
   display: inline-block;
-  background-color: #e65100;
+  background-color: #b45309;
   color: white;
   padding: 2px 12px;
   border-radius: 12px;
@@ -35,31 +69,33 @@
   letter-spacing: 0.03em;
 }
 
-/* ========== テーブル全体 ========== */
+/* =============================================
+   テーブル
+   ============================================= */
 .md-typeset table:not([class]) {
   border-collapse: collapse;
   width: 100%;
   font-size: 0.9em;
-  box-shadow: 0 1px 4px rgba(0,0,0,0.08);
   border-radius: 6px;
   overflow: hidden;
+  border: 1px solid var(--color-border);
 }
 
 .md-typeset table:not([class]) th {
-  background-color: #37306b;
+  background-color: var(--color-primary);
   color: white;
   padding: 10px 16px;
   text-align: left;
   font-weight: bold;
   font-size: 0.88em;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.03em;
 }
 
 .md-typeset table:not([class]) td {
   padding: 10px 16px;
-  border-bottom: 1px solid #ebebf5;
+  border-bottom: 1px solid var(--color-border);
   vertical-align: top;
-  line-height: 1.6;
+  line-height: 1.65;
 }
 
 .md-typeset table:not([class]) tr:last-child td {
@@ -67,23 +103,14 @@
 }
 
 .md-typeset table:not([class]) tr:nth-child(even) td {
-  background-color: #f7f7fc;
+  background-color: #f5f8ff;
 }
 
-/* OK/NG 3カラムテーブル：2列目=OK（薄緑）、3列目=NG（薄赤） */
-.md-typeset table:not([class]) td:nth-child(2):has(.badge-ok),
-.md-typeset table:not([class]) th:nth-child(2) {
-  border-left: 2px solid #e8f5e9;
-}
-
-.md-typeset table:not([class]) td:nth-child(3):has(.badge-ng),
-.md-typeset table:not([class]) th:nth-child(3) {
-  border-left: 2px solid #fce4e4;
-}
-
-/* ========== 商品ヘッダーカード ========== */
+/* =============================================
+   商品ヘッダーカード
+   ============================================= */
 .product-header {
-  background: linear-gradient(135deg, #2d2b6b 0%, #4f4da8 100%);
+  background: linear-gradient(135deg, var(--color-primary-dark) 0%, var(--color-primary) 100%);
   color: white;
   padding: 28px 32px;
   border-radius: 10px;
@@ -120,44 +147,32 @@
   border: 1px solid rgba(255,255,255,0.35);
 }
 
-/* ========== セクション見出し ========== */
+/* =============================================
+   見出し
+   ============================================= */
 .md-typeset h2 {
-  border-left: 4px solid #4f4da8;
+  border-left: 4px solid var(--color-primary);
   padding-left: 14px;
   margin-top: 2.2em;
-  color: #2d2b6b;
+  color: var(--color-primary-dark);
+  font-size: 1.2em;
 }
 
 .md-typeset h3 {
-  color: #4a4a8a;
+  color: var(--color-primary);
+  font-size: 1.05em;
 }
 
-/* ========== 大原則ボックス ========== */
-.rule-ok {
-  color: #1b5e20;
-  font-weight: bold;
-}
-
-.rule-ng {
-  color: #b71c1c;
-  font-weight: bold;
-}
-
-/* ========== チェックリスト ========== */
-.md-typeset .task-list-item [type="checkbox"] {
-  margin-right: 6px;
-}
-
-/* ========== コードブロック（フロー図） ========== */
-.md-typeset code {
-  border-radius: 4px;
-}
-
-.md-typeset pre {
-  border-radius: 8px;
-}
-
-/* ========== タブ ========== */
+/* =============================================
+   タブ
+   ============================================= */
 .md-typeset .tabbed-labels > label {
   font-weight: bold;
+}
+
+/* =============================================
+   コードブロック（フロー図）
+   ============================================= */
+.md-typeset pre {
+  border-radius: 8px;
 }

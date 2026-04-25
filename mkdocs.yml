@@ -8,8 +8,8 @@ theme:
   language: ja
   palette:
     - scheme: default
-      primary: deep purple
-      accent: deep purple
+      primary: indigo
+      accent: blue
   features:
     - navigation.tabs
     - navigation.tabs.sticky
