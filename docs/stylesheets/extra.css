@@ -1,32 +1,163 @@
-/* テーブルの可読性向上 */
+/* ========== バッジ ========== */
+.badge-ok {
+  display: inline-block;
+  background-color: #2e7d32;
+  color: white;
+  padding: 2px 12px;
+  border-radius: 12px;
+  font-size: 0.78em;
+  font-weight: bold;
+  white-space: nowrap;
+  letter-spacing: 0.03em;
+}
+
+.badge-ng {
+  display: inline-block;
+  background-color: #c62828;
+  color: white;
+  padding: 2px 12px;
+  border-radius: 12px;
+  font-size: 0.78em;
+  font-weight: bold;
+  white-space: nowrap;
+  letter-spacing: 0.03em;
+}
+
+.badge-conditional {
+  display: inline-block;
+  background-color: #e65100;
+  color: white;
+  padding: 2px 12px;
+  border-radius: 12px;
+  font-size: 0.78em;
+  font-weight: bold;
+  white-space: nowrap;
+  letter-spacing: 0.03em;
+}
+
+/* ========== テーブル全体 ========== */
+.md-typeset table:not([class]) {
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 0.9em;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+  border-radius: 6px;
+  overflow: hidden;
+}
+
 .md-typeset table:not([class]) th {
-  background-color: var(--md-primary-fg-color);
-  color: var(--md-primary-bg-color);
+  background-color: #37306b;
+  color: white;
+  padding: 10px 16px;
+  text-align: left;
+  font-weight: bold;
+  font-size: 0.88em;
+  letter-spacing: 0.02em;
 }
 
-/* NGバッジ */
-.ng-badge {
-  background-color: #f44336;
+.md-typeset table:not([class]) td {
+  padding: 10px 16px;
+  border-bottom: 1px solid #ebebf5;
+  vertical-align: top;
+  line-height: 1.6;
+}
+
+.md-typeset table:not([class]) tr:last-child td {
+  border-bottom: none;
+}
+
+.md-typeset table:not([class]) tr:nth-child(even) td {
+  background-color: #f7f7fc;
+}
+
+/* OK/NG 3カラムテーブル：2列目=OK（薄緑）、3列目=NG（薄赤） */
+.md-typeset table:not([class]) td:nth-child(2):has(.badge-ok),
+.md-typeset table:not([class]) th:nth-child(2) {
+  border-left: 2px solid #e8f5e9;
+}
+
+.md-typeset table:not([class]) td:nth-child(3):has(.badge-ng),
+.md-typeset table:not([class]) th:nth-child(3) {
+  border-left: 2px solid #fce4e4;
+}
+
+/* ========== 商品ヘッダーカード ========== */
+.product-header {
+  background: linear-gradient(135deg, #2d2b6b 0%, #4f4da8 100%);
   color: white;
-  padding: 2px 8px;
-  border-radius: 4px;
-  font-size: 0.75em;
+  padding: 28px 32px;
+  border-radius: 10px;
+  margin-bottom: 28px;
+}
+
+.product-header h1 {
+  color: white !important;
+  margin: 0 0 6px 0 !important;
+  font-size: 1.7em !important;
+  border: none !important;
+  padding: 0 !important;
+}
+
+.product-header .subtitle {
+  opacity: 0.82;
+  font-size: 0.95em;
+  margin-bottom: 18px;
+}
+
+.product-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 12px;
+}
+
+.product-tag {
+  background-color: rgba(255,255,255,0.18);
+  color: white;
+  padding: 4px 14px;
+  border-radius: 14px;
+  font-size: 0.8em;
+  border: 1px solid rgba(255,255,255,0.35);
+}
+
+/* ========== セクション見出し ========== */
+.md-typeset h2 {
+  border-left: 4px solid #4f4da8;
+  padding-left: 14px;
+  margin-top: 2.2em;
+  color: #2d2b6b;
+}
+
+.md-typeset h3 {
+  color: #4a4a8a;
+}
+
+/* ========== 大原則ボックス ========== */
+.rule-ok {
+  color: #1b5e20;
   font-weight: bold;
 }
 
-/* OKバッジ */
-.ok-badge {
-  background-color: #4caf50;
-  color: white;
-  padding: 2px 8px;
-  border-radius: 4px;
-  font-size: 0.75em;
+.rule-ng {
+  color: #b71c1c;
   font-weight: bold;
 }
 
-/* 注釈ブロック */
-.md-typeset blockquote {
-  border-left: 4px solid var(--md-primary-fg-color);
-  background-color: var(--md-code-bg-color);
-  padding: 0.5em 1em;
+/* ========== チェックリスト ========== */
+.md-typeset .task-list-item [type="checkbox"] {
+  margin-right: 6px;
+}
+
+/* ========== コードブロック（フロー図） ========== */
+.md-typeset code {
+  border-radius: 4px;
+}
+
+.md-typeset pre {
+  border-radius: 8px;
+}
+
+/* ========== タブ ========== */
+.md-typeset .tabbed-labels > label {
+  font-weight: bold;
 }
