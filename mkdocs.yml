@@ -28,13 +28,13 @@ theme:
 
 nav:
   - ホーム: index.md
+  - 広告表現チェックシート:
+    - ポイセン（ウルトラ消臭リキッド）: products/poisen.md
   - LEチームの考え方: le-philosophy.md
-  - 法令ガイド:
+  - 法令リファレンス:
     - 景表法: law/keihyohou.md
     - 薬機法: law/yakki.md
     - 特商法: law/tokushohou.md
-  - 商品別レギュレーション:
-    - ポイセン（ウルトラ消臭リキッド）: products/poisen.md
 
 plugins:
   - search:
