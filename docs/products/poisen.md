@@ -25,6 +25,37 @@
 </div>
 </div>
 
+<div class="product-overview">
+<div class="product-overview-desc">雑貨（衣類用液体洗剤）として販売するプルーストウルトラ消臭リキッド。消臭・除菌・抗菌の3機能を試験データで訴求できる。薬機法の直接適用はないが、医薬品的表現は景表法・薬機法双方のリスクになるため注意。</div>
+<div class="product-info-grid">
+  <div class="product-info-card">
+    <div class="card-label">正式商品名</div>
+    <div class="card-value">プルーストウルトラ消臭リキッド</div>
+    <div class="card-sub">Poisen / ポイセン</div>
+  </div>
+  <div class="product-info-card">
+    <div class="card-label">商品分類</div>
+    <div class="card-value">雑貨</div>
+    <div class="card-sub">衣類用液体洗剤</div>
+  </div>
+  <div class="product-info-card">
+    <div class="card-label">内容量</div>
+    <div class="card-value">180g</div>
+    <div class="card-sub">—</div>
+  </div>
+  <div class="product-info-card">
+    <div class="card-label">使用期限</div>
+    <div class="card-value">製造から3年間</div>
+    <div class="card-sub">雑貨のためなし（ヨミテ社内設定）</div>
+  </div>
+  <div class="product-info-card">
+    <div class="card-label">通常販売価格</div>
+    <div class="card-value price">¥3,980</div>
+    <div class="card-sub">税込</div>
+  </div>
+</div>
+</div>
+
 !!! info "このシートの使い方"
     広告・LP・クリエイティブを制作する際、表現テーマごとにOK/NGを確認してください。  
     **迷ったら即LEへ。** 入稿後の修正は景表法違反・ブランド毀損のリスクになります。
