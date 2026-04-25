@@ -1,0 +1,60 @@
+site_name: ヨミテ レギュレーションナレッジ
+site_description: ヨミテ LE チームの法令・広告レギュレーション知識ベース
+
+docs_dir: docs
+
+theme:
+  name: material
+  language: ja
+  palette:
+    - scheme: default
+      primary: deep purple
+      accent: deep purple
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.top
+    - navigation.instant
+    - search.highlight
+    - search.share
+    - content.tabs.link
+    - toc.follow
+  font:
+    text: Noto Sans JP
+    code: Roboto Mono
+  icon:
+    logo: material/scale-balance
+
+nav:
+  - ホーム: index.md
+  - LEチームの考え方: le-philosophy.md
+  - 法令ガイド:
+    - 景表法: law/keihyohou.md
+    - 薬機法: law/yakki.md
+    - 特商法: law/tokushohou.md
+  - 商品別レギュレーション:
+    - ポイセン（ウルトラ消臭リキッド）: products/poisen.md
+
+plugins:
+  - search:
+      lang: ja
+
+markdown_extensions:
+  - tables
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.highlight
+  - attr_list
+  - md_in_html
+  - toc:
+      permalink: true
+
+extra_css:
+  - stylesheets/extra.css
+
+extra:
+  generator: false
