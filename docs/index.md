@@ -1,6 +1,25 @@
-# ヨミテ プルーストウルトラ消臭リキッド レギュレーション
+<div class="product-header" markdown="1">
+<h1>ヨミテ プルーストウルトラ消臭リキッド レギュレーション</h1>
+<div class="subtitle">CCLチームが管理する広告表現チェックサイト</div>
+<div class="product-tags">
+  <span class="product-tag">景表法</span>
+  <span class="product-tag">薬機法</span>
+  <span class="product-tag">特商法</span>
+  <span class="product-tag">ポイセン</span>
+</div>
+</div>
 
-CCLチームが管理する広告表現チェックサイトです。
+<div class="contents-card">
+<div class="contents-title">QUICK LINKS</div>
+<div class="contents-links">
+  <a href="le-philosophy/">LEチームの考え方</a>
+  <a href="products/poisen/">ポイセン 広告表現チェックシート</a>
+  <a href="law/keihyohou/">景表法リファレンス</a>
+  <a href="law/yakki/">薬機法リファレンス</a>
+  <a href="law/tokushohou/">特商法リファレンス</a>
+</div>
+</div>
+
 広告・LP・クリエイティブ制作時の**OK/NG表現をすぐ確認**できます。
 
 ---
@@ -12,7 +31,6 @@ CCLチームが管理する広告表現チェックサイトです。
 | 📋 プルーストウルトラ消臭リキッドの広告表現をチェックしたい | [広告表現チェックシート](products/poisen.md) |
 | 💡 LEチームの判断基準・グレーゾーンの考え方を知りたい   | [ヨミテの法律の考え方](le-philosophy.md)    |
 | 📖 景表法・薬機法・特商法を詳しく調べたい          | [法令リファレンス](law/keihyohou.md)      |
-|                                 |                                   |
 
 ---
 

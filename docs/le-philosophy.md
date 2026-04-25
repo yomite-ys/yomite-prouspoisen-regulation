@@ -1,8 +1,29 @@
-# ヨミテの法律の考え方（全商品共通）
+<div class="product-header" markdown="1">
+<h1>LE チームの考え方</h1>
+<div class="subtitle">全商品共通の判断基準・グレーゾーンの考え方</div>
+<div class="product-tags">
+  <span class="product-tag">全商品共通</span>
+  <span class="product-tag">判断基準</span>
+  <span class="product-tag">グレーゾーン</span>
+  <span class="product-tag">景表法・薬機法 両立前提</span>
+</div>
+</div>
+
+<div class="contents-card">
+<div class="contents-title">CONTENTS</div>
+<div class="contents-links">
+  <a href="#existence">CCL・LEチームの存在意義</a>
+  <a href="#clearly-ng">① 明確にダメなものを止める</a>
+  <a href="#gray-zone">② グレーゾーンの論点整理</a>
+  <a href="#both-laws">両法令の関係</a>
+</div>
+</div>
 
 > この考え方はすべての商品・クリエイティブチェックの前提となります。
 
 ---
+
+<div class="section-label" id="existence">MISSION</div>
 
 ## CCL・LEチームの存在意義
 
@@ -15,6 +36,8 @@
 3. 最終判断と責任は代表が負う
 
 ---
+
+<div class="section-label" id="clearly-ng">SECTION 01</div>
 
 ## 1. 明確にダメなものを止める
 
@@ -29,6 +52,8 @@
 
 ---
 
+<div class="section-label" id="gray-zone">SECTION 02</div>
+
 ## 2. 違法可能性の論点整理（グレーゾーン）
 
 ヨミテにおいては、**事業成長（お客様が喜んでくれる商品をより多くのお客様に届けること）を最大化しながら法令リスクを管理する**ため、グレーゾーンは明確な判例がない限り「OKと言える論理を採用する」方針をとる。
@@ -40,9 +65,15 @@
 
 ---
 
+<div class="section-label" id="both-laws">IMPORTANT</div>
+
 ## 両法令の関係
 
 !!! warning "薬機法と景表法は両立が前提"
     薬機法リスクを下げるために景表法違反を許容する判断はNG。  
     「薬機法より景表法守ろうぜ」という理由で薬機法リスクを取るのは本末転倒。  
     **両方を同時にクリアする表現を検討すること。**
+
+---
+
+*最終更新：2026-04-25*

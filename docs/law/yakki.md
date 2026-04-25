@@ -1,23 +1,47 @@
-# 薬機法（医薬品医療機器等法）
+<div class="product-header" markdown="1">
+<h1>薬機法（医薬品医療機器等法）</h1>
+<div class="subtitle">D2C・WEB通販における広告規制ガイド</div>
+<div class="product-tags">
+  <span class="product-tag">薬機法</span>
+  <span class="product-tag">効能効果</span>
+  <span class="product-tag">広告規制</span>
+  <span class="product-tag">66条・68条</span>
+  <span class="product-tag">課徴金：売上の4.5%</span>
+</div>
+</div>
 
-D2C・WEB通販における薬機法の広告規制ガイド。  
-医薬品・医薬部外品・化粧品・健康食品の広告規制を中心に、LP・SNS広告制作時の法的要件を整理する。
+<div class="contents-card">
+<div class="contents-title">CONTENTS</div>
+<div class="contents-links">
+  <a href="#three-req">広告の3要件</a>
+  <a href="#ng-patterns">NGになる広告表現パターン</a>
+  <a href="#categories">商品カテゴリ別 規制比較</a>
+  <a href="#drug-criteria">医薬品とみなされる判断基準</a>
+  <a href="#checklist">チェックリスト</a>
+</div>
+</div>
 
 ---
+
+<div class="section-label" id="three-req">OVERVIEW</div>
 
 ## 広告の3要件
 
 以下すべてを満たすと「広告」と認定される。
 
-1. **顧客誘引性**：顧客の購買意欲を刺激する意図がある
-2. **特定性**：特定の商品・ブランドが判別できる
-3. **認知性**：一般消費者に到達できる状態にある
+| 要件 | 内容 |
+|------|------|
+| **顧客誘引性** | 顧客の購買意欲を刺激する意図がある |
+| **特定性** | 特定の商品・ブランドが判別できる |
+| **認知性** | 一般消費者に到達できる状態にある |
 
 !!! warning "個人ブログ風でも広告になる"
     LP・SNS投稿・インフルエンサー投稿・EC商品ページはすべて広告に該当。  
     「個人の日記・ブログ風」の表現でも、実質的に上記3要件を満たせば広告とみなされる。
 
 ---
+
+<div class="section-label" id="ng-patterns">SECTION 01</div>
 
 ## NGになる広告表現パターン
 
@@ -61,6 +85,8 @@ D2C・WEB通販における薬機法の広告規制ガイド。
 
 ---
 
+<div class="section-label" id="categories">SECTION 02</div>
+
 ## 商品カテゴリ別 規制比較
 
 | カテゴリ | 主な根拠法 | 広告で訴求できる内容 | 注意点 |
@@ -76,6 +102,8 @@ D2C・WEB通販における薬機法の広告規制ガイド。
     健康食品・サプリで「〇〇に効く」等の薬機法的表現を使うと、無承認無許可医薬品として68条違反になる。
 
 ---
+
+<div class="section-label" id="drug-criteria">SECTION 03</div>
 
 ## 健康食品が「医薬品とみなされる」判断基準
 
@@ -102,6 +130,10 @@ D2C・WEB通販における薬機法の広告規制ガイド。
 
 ## 違反した場合の措置
 
+!!! warning "代理店・制作側も逮捕対象になる"
+    2020年のステラ漢方事件では広告代理店社員が逮捕されている。  
+    広告制作に携わるすべての関係者が薬機法リスクを負う。
+
 | 措置 | 根拠条文 | 内容 | 公表 |
 |-----|---------|------|------|
 | **行政指導** | — | 違法状態の是正命令・報告書提出要求 | **非公表** |
@@ -109,11 +141,9 @@ D2C・WEB通販における薬機法の広告規制ガイド。
 | **課徴金納付命令** | 75条の5の2 | 違反期間の売上額の**4.5%** | 公表 |
 | **刑事罰** | 85条 | **2年以下の懲役または200万円以下の罰金** | 公表 |
 
-!!! warning "代理店・制作側も逮捕対象になる"
-    2020年のステラ漢方事件では広告代理店社員が逮捕されている。  
-    広告制作に携わるすべての関係者が薬機法リスクを負う。
-
 ---
+
+<div class="section-label" id="checklist">CHECK</div>
 
 ## 広告チェックリスト
 
