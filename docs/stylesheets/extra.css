@@ -44,12 +44,21 @@
 }
 
 /* =============================================
-   フォント
+   フォント・全体サイズ・幅
    ============================================= */
 @import url('https://fonts.googleapis.com/css2?family=BIZ+UDPGothic:wght@400;700&display=swap');
 
+html {
+  font-size: 15px;
+}
+
 body, .md-typeset {
   font-family: 'BIZ UDPGothic', 'Noto Sans JP', sans-serif;
+}
+
+/* コンテンツ幅を広げる */
+.md-grid {
+  max-width: 75rem;
 }
 
 /* =============================================
