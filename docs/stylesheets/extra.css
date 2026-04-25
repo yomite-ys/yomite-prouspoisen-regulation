@@ -343,31 +343,32 @@ body, .md-typeset {
   margin: 28px 0 12px;
 }
 
-.info-table {
+.md-typeset .info-table {
   width: 100%;
   border-collapse: collapse;
   font-size: 0.9em;
   margin-bottom: 20px;
   border: 1px solid var(--gray-border);
-  border-radius: 6px;
   overflow: hidden;
+  display: table;
 }
 
-.info-table td {
+.md-typeset .info-table td {
   padding: 11px 16px;
   border-bottom: 1px solid var(--gray-border);
   vertical-align: top;
   line-height: 1.6;
+  background-color: white;
 }
 
-.info-table tr:last-child td {
+.md-typeset .info-table tr:last-child td {
   border-bottom: none;
 }
 
-.info-table td:first-child {
+.md-typeset .info-table td:first-child {
   font-weight: 700;
   color: var(--blue-dark);
-  background-color: #f0f4fb;
+  background-color: #f0f4fb !important;
   width: 30%;
   white-space: nowrap;
 }
