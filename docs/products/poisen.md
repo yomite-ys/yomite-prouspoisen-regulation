@@ -22,6 +22,7 @@
   <a href="#section7">⑦ 媒体別ルール</a>
   <a href="#checklist">入稿前チェックリスト</a>
   <a href="#annotations">確定注釈文</a>
+  <a href="#product-info">製造・販売情報</a>
 </div>
 </div>
 
@@ -287,6 +288,27 @@ LEチェック依頼（配信開始2週間前まで）
   ↓
 デザイン依頼 → CSMD共有 → 入稿
 ```
+
+---
+
+<div class="section-label" id="product-info">INFO</div>
+
+## 製造・販売情報
+
+<div class="info-section-title">販売情報</div>
+
+<table class="info-table">
+  <tr><td>販売名</td><td>プルーストウルトラ消臭リキッド</td></tr>
+  <tr><td>ブランド</td><td>PROUST（プルースト）</td></tr>
+  <tr><td>販売元</td><td>株式会社ヨミテ</td></tr>
+  <tr><td>JANコード</td><td>4580614070652</td></tr>
+</table>
+
+<div class="info-section-title">お問い合わせ</div>
+
+<table class="info-table">
+  <tr><td>お客様相談窓口</td><td>0570-200-363（平日10:00〜13:00 / 14:00〜17:00、土日祝を除く）</td></tr>
+</table>
 
 ---
 
