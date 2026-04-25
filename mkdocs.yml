@@ -1,4 +1,4 @@
-site_name: ヨミテ レギュレーションナレッジ
+site_name: ヨミテ プルーストウルトラ消臭リキッド レギュレーション
 site_description: ヨミテ LE チームの法令・広告レギュレーション知識ベース
 
 docs_dir: docs
@@ -28,9 +28,9 @@ theme:
 
 nav:
   - ホーム: index.md
+  - LEチームの考え方: le-philosophy.md
   - 広告表現チェックシート:
     - ポイセン（ウルトラ消臭リキッド）: products/poisen.md
-  - LEチームの考え方: le-philosophy.md
   - 法令リファレンス:
     - 景表法: law/keihyohou.md
     - 薬機法: law/yakki.md

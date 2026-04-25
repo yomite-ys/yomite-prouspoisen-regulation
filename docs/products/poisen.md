@@ -1,5 +1,5 @@
 <div class="product-header" markdown="1">
-<h1>ポイセン 広告表現チェックシート</h1>
+<h1>プルーストウルトラ消臭リキッド  広告表現チェックシート</h1>
 <div class="subtitle">プルーストウルトラ消臭リキッド</div>
 <div class="product-tags">
   <span class="product-tag">雑貨</span>
