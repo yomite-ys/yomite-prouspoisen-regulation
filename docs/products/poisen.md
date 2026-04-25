@@ -22,9 +22,12 @@
   <a href="#section7">⑦ 媒体別ルール</a>
   <a href="#checklist">入稿前チェックリスト</a>
   <a href="#annotations">確定注釈文</a>
-  <a href="#product-info">製造・販売情報</a>
 </div>
 </div>
+
+!!! info "このシートの使い方"
+    広告・LP・クリエイティブを制作する際、表現テーマごとにOK/NGを確認してください。  
+    **迷ったら即LEへ。** 入稿後の修正は景表法違反・ブランド毀損のリスクになります。
 
 <div class="product-overview">
 <div class="product-overview-desc">雑貨（衣類用液体洗剤）として販売するプルーストウルトラ消臭リキッド。消臭・除菌・抗菌の3機能を試験データで訴求できる。薬機法の直接適用はないが、医薬品的表現は景表法・薬機法双方のリスクになるため注意。</div>
@@ -57,9 +60,14 @@
 </div>
 </div>
 
-!!! info "このシートの使い方"
-    広告・LP・クリエイティブを制作する際、表現テーマごとにOK/NGを確認してください。  
-    **迷ったら即LEへ。** 入稿後の修正は景表法違反・ブランド毀損のリスクになります。
+<table class="info-table" style="margin-top:20px;">
+  <tr><td>販売名</td><td>プルーストウルトラ消臭リキッド</td></tr>
+  <tr><td>ブランド</td><td>PROUST（プルースト）</td></tr>
+  <tr><td>販売元</td><td>株式会社ヨミテ</td></tr>
+  <tr><td>内容量</td><td>180g</td></tr>
+  <tr><td>JANコード</td><td>4580614070652</td></tr>
+  <tr><td>お客様相談窓口</td><td>0570-200-363（平日10:00〜13:00 / 14:00〜17:00、土日祝を除く）</td></tr>
+</table>
 
 ---
 
@@ -291,25 +299,5 @@ LEチェック依頼（配信開始2週間前まで）
 
 ---
 
-<div class="section-label" id="product-info">INFO</div>
-
-## 製造・販売情報
-
-<div class="info-section-title">販売情報</div>
-
-<table class="info-table">
-  <tr><td>販売名</td><td>プルーストウルトラ消臭リキッド</td></tr>
-  <tr><td>ブランド</td><td>PROUST（プルースト）</td></tr>
-  <tr><td>販売元</td><td>株式会社ヨミテ</td></tr>
-  <tr><td>JANコード</td><td>4580614070652</td></tr>
-</table>
-
-<div class="info-section-title">お問い合わせ</div>
-
-<table class="info-table">
-  <tr><td>お客様相談窓口</td><td>0570-200-363（平日10:00〜13:00 / 14:00〜17:00、土日祝を除く）</td></tr>
-</table>
-
----
 
 *最終更新：2026-04-25*
