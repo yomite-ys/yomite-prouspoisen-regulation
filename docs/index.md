@@ -1,11 +1,11 @@
 <div class="product-header" markdown="1">
-<h1>ヨミテ プルーストウルトラ消臭リキッド レギュレーション</h1>
+<h1>ヨミテ プルーストシリーズ レギュレーション</h1>
 <div class="subtitle">CCLチームが管理する広告表現チェックサイト</div>
 <div class="product-tags">
   <span class="product-tag">景表法</span>
   <span class="product-tag">薬機法</span>
   <span class="product-tag">特商法</span>
-  <span class="product-tag">ポイセン</span>
+  <span class="product-tag">プルーストシリーズ</span>
 </div>
 </div>
 
@@ -28,7 +28,7 @@
 
 | やりたいこと                          | 見るページ                             |
 | ------------------------------- | --------------------------------- |
-| 📋 プルーストウルトラ消臭リキッドの広告表現をチェックしたい | [広告表現チェックシート](products/poisen.md) |
+| 📋 プルーストシリーズの広告表現をチェックしたい | [広告表現チェックシート](products/poisen.md) |
 | 💡 LEチームの判断基準・グレーゾーンの考え方を知りたい   | [ヨミテの法律の考え方](le-philosophy.md)    |
 | 📖 景表法・薬機法・特商法を詳しく調べたい          | [法令リファレンス](law/keihyohou.md)      |
 
@@ -52,4 +52,4 @@
     薬機法と景表法は**両方同時にクリアする**表現を選ぶこと。  
     どちらか一方を守るために、もう一方を犠牲にする判断はNG。
 
-*最終更新：2026-04-25*
+*最終更新：2026-05-02*
