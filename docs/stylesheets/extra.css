@@ -439,3 +439,16 @@ body, .md-typeset {
   color: #888;
   line-height: 1.5;
 }
+
+/* =============================================
+   赤テーマ（アセテクト等）ページ用オーバーライド
+   ============================================= */
+.page-red {
+  --blue-dark:  #6e1a1a;
+  --blue-main:  #c62828;
+  --blue-light: #fdecea;
+}
+
+.page-red .md-typeset .info-table td:first-child {
+  background-color: #fdf0f0 !important;
+}
